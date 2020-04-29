@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc.Views", "Calc.Views\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc.ViewModels", "Calc.ViewModels\Calc.ViewModels.csproj", "{FAA3DC96-2413-4843-8D23-EB36DC457473}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Calc\Calc.csproj", "{168C7FEC-0BB1-4766-8900-022F2AC8F40A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{FAA3DC96-2413-4843-8D23-EB36DC457473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAA3DC96-2413-4843-8D23-EB36DC457473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAA3DC96-2413-4843-8D23-EB36DC457473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168C7FEC-0BB1-4766-8900-022F2AC8F40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168C7FEC-0BB1-4766-8900-022F2AC8F40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168C7FEC-0BB1-4766-8900-022F2AC8F40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168C7FEC-0BB1-4766-8900-022F2AC8F40A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

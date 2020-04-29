@@ -7,8 +7,35 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        Title="MainWindow" Height="450" Width="800">
+        AllowsTransparency="True"
+        Background="#FFB4D2EC"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        Title="MainWindow" Height="500" Width="360">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/Generic.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+
+    <!--圆角截割-->
+    <Window.Clip>
+        <RectangleGeometry
+           RadiusX="20" 
+            RadiusY="20"
+            Rect="0,0,360,500"/>
+    </Window.Clip>
+
     <Grid>
+        <Button
+            FontFamily="{StaticResource Fonts.Icon}"
+            Content="{StaticResource ResourceKey=Icons.power-off}"
+            Width="120"
+            Height="120"
+            FontSize="56"
+            />
         
     </Grid>
 </Window>
